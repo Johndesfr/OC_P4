@@ -1,0 +1,22 @@
+[project]
+name = "projet4"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Johndes",email = "jonathan@desurmont.pro"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas (>=3.0.3,<4.0.0)",
+    "numpy (>=2.4.6,<3.0.0)",
+    "uv (>=0.11.16,<0.12.0)",
+    "matplotlib (>=3.10.9,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "scikit-learn (>=1.8.0,<2.0.0)",
+    "ipykernel (>=7.2.0,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

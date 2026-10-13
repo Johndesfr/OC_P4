@@ -1,0 +1,7 @@
+modele,jeu,tn,fp,fn,tp
+DummyClassifier,train,986,0,190,0
+DummyClassifier,test,247,0,47,0
+LogisticRegression,train,766,220,41,149
+LogisticRegression,test,194,53,15,32
+RandomForestClassifier,train,887,99,57,133
+RandomForestClassifier,test,212,35,17,30

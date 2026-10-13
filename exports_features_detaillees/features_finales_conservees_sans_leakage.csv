@@ -1,0 +1,46 @@
+numero,type_feature,variable_originale,modalite_one_hot,feature_apres_preprocessing,encodage,conservee_apres_variance_threshold
+1,numérique,age,,numerique__age,imputation médiane,True
+2,numérique,revenu_mensuel,,numerique__revenu_mensuel,imputation médiane,True
+3,numérique,nombre_experiences_precedentes,,numerique__nombre_experiences_precedentes,imputation médiane,True
+4,numérique,annee_experience_totale,,numerique__annee_experience_totale,imputation médiane,True
+5,numérique,annees_dans_l_entreprise,,numerique__annees_dans_l_entreprise,imputation médiane,True
+6,numérique,annees_dans_le_poste_actuel,,numerique__annees_dans_le_poste_actuel,imputation médiane,True
+7,numérique,satisfaction_employee_environnement,,numerique__satisfaction_employee_environnement,imputation médiane,True
+8,numérique,note_evaluation_precedente,,numerique__note_evaluation_precedente,imputation médiane,True
+9,numérique,niveau_hierarchique_poste,,numerique__niveau_hierarchique_poste,imputation médiane,True
+10,numérique,satisfaction_employee_nature_travail,,numerique__satisfaction_employee_nature_travail,imputation médiane,True
+11,numérique,satisfaction_employee_equipe,,numerique__satisfaction_employee_equipe,imputation médiane,True
+12,numérique,satisfaction_employee_equilibre_pro_perso,,numerique__satisfaction_employee_equilibre_pro_perso,imputation médiane,True
+13,numérique,note_evaluation_actuelle,,numerique__note_evaluation_actuelle,imputation médiane,True
+14,numérique,nombre_participation_pee,,numerique__nombre_participation_pee,imputation médiane,True
+15,numérique,nb_formations_suivies,,numerique__nb_formations_suivies,imputation médiane,True
+16,numérique,distance_domicile_travail,,numerique__distance_domicile_travail,imputation médiane,True
+17,numérique,niveau_education,,numerique__niveau_education,imputation médiane,True
+18,numérique,annees_depuis_la_derniere_promotion,,numerique__annees_depuis_la_derniere_promotion,imputation médiane,True
+19,numérique,annes_sous_responsable_actuel,,numerique__annes_sous_responsable_actuel,imputation médiane,True
+20,numérique,augmentation_salaire_precedente_pct,,numerique__augmentation_salaire_precedente_pct,imputation médiane,True
+21,numérique,ratio_anciennete_experience,,numerique__ratio_anciennete_experience,imputation médiane,True
+22,numérique,ratio_temps_poste_anciennete,,numerique__ratio_temps_poste_anciennete,imputation médiane,True
+23,numérique,ratio_promotion_anciennete,,numerique__ratio_promotion_anciennete,imputation médiane,True
+24,numérique,revenu_par_annee_experience,,numerique__revenu_par_annee_experience,imputation médiane,True
+25,catégorielle encodée one-hot,genre,M,categoriel__genre_M,OneHotEncoder drop='first',True
+26,catégorielle encodée one-hot,statut_marital,Divorcé(e),categoriel__statut_marital_Divorcé(e),OneHotEncoder drop='first',True
+27,catégorielle encodée one-hot,statut_marital,Marié(e),categoriel__statut_marital_Marié(e),OneHotEncoder drop='first',True
+28,catégorielle encodée one-hot,departement,Consulting,categoriel__departement_Consulting,OneHotEncoder drop='first',True
+29,catégorielle encodée one-hot,departement,Ressources Humaines,categoriel__departement_Ressources Humaines,OneHotEncoder drop='first',True
+30,catégorielle encodée one-hot,poste,Cadre Commercial,categoriel__poste_Cadre Commercial,OneHotEncoder drop='first',True
+31,catégorielle encodée one-hot,poste,Consultant,categoriel__poste_Consultant,OneHotEncoder drop='first',True
+32,catégorielle encodée one-hot,poste,Directeur Technique,categoriel__poste_Directeur Technique,OneHotEncoder drop='first',True
+33,catégorielle encodée one-hot,poste,Manager,categoriel__poste_Manager,OneHotEncoder drop='first',True
+34,catégorielle encodée one-hot,poste,Représentant Commercial,categoriel__poste_Représentant Commercial,OneHotEncoder drop='first',True
+35,catégorielle encodée one-hot,poste,Ressources Humaines,categoriel__poste_Ressources Humaines,OneHotEncoder drop='first',True
+36,catégorielle encodée one-hot,poste,Senior Manager,categoriel__poste_Senior Manager,OneHotEncoder drop='first',True
+37,catégorielle encodée one-hot,poste,Tech Lead,categoriel__poste_Tech Lead,OneHotEncoder drop='first',True
+38,catégorielle encodée one-hot,heure_supplementaires,Oui,categoriel__heure_supplementaires_Oui,OneHotEncoder drop='first',True
+39,catégorielle encodée one-hot,domaine_etude,Entrepreunariat,categoriel__domaine_etude_Entrepreunariat,OneHotEncoder drop='first',True
+40,catégorielle encodée one-hot,domaine_etude,Infra & Cloud,categoriel__domaine_etude_Infra & Cloud,OneHotEncoder drop='first',True
+41,catégorielle encodée one-hot,domaine_etude,Marketing,categoriel__domaine_etude_Marketing,OneHotEncoder drop='first',True
+42,catégorielle encodée one-hot,domaine_etude,Ressources Humaines,categoriel__domaine_etude_Ressources Humaines,OneHotEncoder drop='first',True
+43,catégorielle encodée one-hot,domaine_etude,Transformation Digitale,categoriel__domaine_etude_Transformation Digitale,OneHotEncoder drop='first',True
+44,catégorielle encodée one-hot,frequence_deplacement,Frequent,categoriel__frequence_deplacement_Frequent,OneHotEncoder drop='first',True
+45,catégorielle encodée one-hot,frequence_deplacement,Occasionnel,categoriel__frequence_deplacement_Occasionnel,OneHotEncoder drop='first',True
